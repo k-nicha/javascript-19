@@ -31,6 +31,3 @@ let test = null;
 // UNDEFINED e nedefinirna vrednost (nema kutija)
 test = undefined;
 console.log(test)
-
-
-
