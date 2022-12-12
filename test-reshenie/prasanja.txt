@@ -1,0 +1,10 @@
+1 - document.querySelector(‘a#link’);
+2 - console
+3 - function () {}
+4 - var vistina = true;
+5 - false
+6 - string, number, boolean
+7 - ќе отпечати 6 пати
+8 - var niza = [“a”, “b”, “c”];
+9 - for (var i = 17; i > 0; i--)
+10 - дефинирање на код кој реагира на одреден настан

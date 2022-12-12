@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    
+  <div class="small"><span>Hello!</span></div>
+  <div class="small"><span>Hello!</span></div>
+  <div class="small"><span>Hello!</span></div>
+  <div class="small"><span>Hello!</span></div>
+
+  <button id="button">Change width</button>
+
+  <script>
+    const button = document.getElementById('button');
+
+    const changeWidth = (e) => {
+      let elements = document.getElementsByClassName('small')
+      for (const el of elements) {
+        el.style = 'width: 300px'
+      }
+    }
+
+    button.addEventListener('click', changeWidth)
+  </script>
+</body>
+
+</html>
+
